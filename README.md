@@ -6,11 +6,13 @@ Backend
 .NET 8,ASP.NET Core Web API, Dapper, Swagger, JWT ,Policy-based Authorization, Dependency, SQL Server
 
 Mô hình
+```
 Solution/
 │
-├── WebAPI/ Project chính chạy API
-├── Application/  Class Library chứa logic (service, interface, repo)
-└── Domain  Class Library chứa class model
+├── WebAPI/        Project chính chạy API
+├── Application/   Class Library chứa logic (service, interface, repo)
+└── Domain/        Class Library chứa class model
+```
 
 
 Các bước để thêm 1 API
