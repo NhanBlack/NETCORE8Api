@@ -1,0 +1,6 @@
+@CleanSolution_HostAddress = http://localhost:5186
+
+GET {{CleanSolution_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
