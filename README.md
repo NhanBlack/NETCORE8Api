@@ -94,3 +94,6 @@ public static IServiceCollection AddInfrastructure(this IServiceCollection servi
 
     return services;
 }
+
+Home main : http://localhost:9999/swagger
+Login with account : admin, pass : 123456
