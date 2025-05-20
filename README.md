@@ -86,6 +86,7 @@ public class CustomerController : ControllerBase
 
 ✅ 4. Đăng ký DI trong DependencyInjection.cs
 
+```csharp
 public static IServiceCollection AddInfrastructure(this IServiceCollection services)
 {
     services.AddScoped<ICustomerRepository, CustomerRepository>();
@@ -94,6 +95,7 @@ public static IServiceCollection AddInfrastructure(this IServiceCollection servi
 
     return services;
 }
+```
 
 Home main : http://localhost:9999/swagger
 Login with account : admin, pass : 123456
