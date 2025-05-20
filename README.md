@@ -1,4 +1,4 @@
-# NETCORE8Api
+# DOTNET CORE API CLEAN FOR SMALL PROJECT CRUD.
 .NET 8 Clean Architecture
 
 Công nghệ:
